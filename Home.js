@@ -106,9 +106,9 @@ const Home = ({navigation}) => {
                         // }
                         mymessage = "Total calories: " + calorieTotal;
                         // if (gender == 'Male' && calorieTotal < 2000) {
-                        //     mymessage2 = "Below the recommended daily intake ";
+                        //     mymessage2 = "Below the recommended daily intake for males ";
                         // } else (gender == 'Female' && calorieTotal < 1600) {
-                        //     mymessage2 = "Below the recommended daily intake ";
+                        //     mymessage2 = "Below the recommended daily intake for females";
                         // }
                         Alert.alert(mymessage)
                     }}
